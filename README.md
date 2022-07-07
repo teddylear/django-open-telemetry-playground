@@ -14,3 +14,6 @@ DJANGO_SETTINGS_MODULE=demo_project.settings opentelemetry-instrument python man
 ## Hitting test endpoint
 
 `http://127.0.0.1:8000/helloWorld/`
+
+## Docs
+[Open Telemetry Django docs](https://opentelemetry-python.readthedocs.io/en/stable/examples/django/README.html)
