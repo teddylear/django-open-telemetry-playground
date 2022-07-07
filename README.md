@@ -16,4 +16,5 @@ DJANGO_SETTINGS_MODULE=demo_project.settings python manage.py runserver --norelo
 `http://127.0.0.1:8000/helloWorld/`
 
 ## Docs
-[Open Telemetry Django docs](https://opentelemetry-python.readthedocs.io/en/stable/examples/django/README.html)
+- [Open Telemetry Django docs](https://opentelemetry-python.readthedocs.io/en/stable/examples/django/README.html)
+- [Open Telemetry Django lib middleware code](https://github.com/open-telemetry/opentelemetry-python-contrib/blob/ee4083982f5919e1366de62b9cf4dac28cc8a314/instrumentation/opentelemetry-instrumentation-django/src/opentelemetry/instrumentation/django/middleware/otel_middleware.py)
