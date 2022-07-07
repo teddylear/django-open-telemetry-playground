@@ -8,7 +8,7 @@ Sample Django app with open telemetry testing some concepts
 pipenv sync --dev
 pipenv shell
 cd demo_project
-DJANGO_SETTINGS_MODULE=demo_project.settings opentelemetry-instrument python manage.py runserver --noreload
+DJANGO_SETTINGS_MODULE=demo_project.settings python manage.py runserver --noreload
 ```
 
 ## Hitting test endpoint
